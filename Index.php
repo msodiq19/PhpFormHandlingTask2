@@ -1,5 +1,15 @@
 <?php
+if(isset($_POST['submit'])){
 
+     $user = $_POST['user'];
+
+     if (empty ($user)){
+         echo "Enter your name";
+       }else {
+          echo $user;
+       }
+
+  }
 
 ?>
 <!DOCTYPE html>
