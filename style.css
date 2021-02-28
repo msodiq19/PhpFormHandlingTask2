@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.container h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 1em;
+}
+input{
+    display: block;
+    margin: auto;
+}
